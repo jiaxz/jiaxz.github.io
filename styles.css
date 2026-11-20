@@ -74,6 +74,22 @@ nav a,.filter-tabs button,.search-input,.text-link,.paper-action{font-size:14px}
  .compact-list .compact-resources{gap:8px}
 }
 /* Static Chinese / English presentation, with the same two-line archives. */
+/* 2026-11-20 latest request: enlarge the half-size portrait and frame by 50%. */
+.hero .portrait-wrap{width:66%;padding:0 0 16.5px 13.5px;justify-self:end}
+.hero .portrait-wrap:before{top:16.5px;right:13.5px}
+.hero .portrait{height:322.5px}
+.hero .portrait-caption{left:25.5px;bottom:24px;max-width:calc(100% - 37.5px);padding:3px 7px;font-size:8px;letter-spacing:.6px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.profile-links{margin-top:9px}
+.profile-github{display:inline-block;font-size:14px;line-height:1.7;color:var(--green);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+.profile-github:hover{text-decoration-color:var(--green)}
+@media(min-width:1500px){.hero .portrait{height:343.5px}}
+@media(max-width:1000px){.hero .portrait{height:310.5px}}
+@media(max-width:760px){
+ .hero .portrait-wrap{max-width:369.75px;padding:0 0 10.5px 9px;margin:auto;justify-self:center}
+ .hero .portrait-wrap:before{top:10.5px;right:9px}
+ .hero .portrait{height:auto}
+ .hero .portrait-caption{left:18px;bottom:18px;max-width:calc(100% - 27px)}
+}
 .language-switch{font-size:14px;white-space:nowrap;border-left:1px solid var(--line);padding-left:20px!important}
 html[lang="en"] .hero h1{font-size:clamp(36px,4.5vw,57px);letter-spacing:-.6px;line-height:1.2}
 html[lang="en"] .hero-statement{font-size:25px;letter-spacing:0}

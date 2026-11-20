@@ -31,7 +31,18 @@ function syncChrome(){
 }
 function homePage(){
   return `<div class="container fade-in">
-    <section class="hero" aria-labelledby="hero-name"><div class="hero-copy"><p class="eyebrow">${tr('heroEyebrow')}</p><h1 id="hero-name">${escapeHTML(publicProfile.name)}</h1><p class="english-name">${escapeHTML(english?publicProfile.secondaryName:PUBLIC_DATA.profile.englishName)}</p><p class="current-role">${escapeHTML(publicProfile.currentRole.organization)} · ${escapeHTML(publicProfile.currentRole.title)}</p><p class="hero-statement">${tr('heroLine1')}<br>${tr('heroLine2')}</p><div class="hero-links"><a class="text-link primary" href="#home/introduction">${tr('introduction')}</a><a class="text-link secondary" href="#home/experience">${tr('experienceLink')}</a></div></div><figure class="portrait-wrap"><img class="portrait" src="assets/jiaxing-zhang.webp" width="1500" height="1000" alt="${tr('portraitAlt')}" fetchpriority="high"><figcaption class="portrait-caption">JIAXING ZHANG · 张家兴</figcaption></figure></section>
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-copy">
+        <p class="eyebrow">${tr('heroEyebrow')}</p>
+        <h1 id="hero-name">${escapeHTML(publicProfile.name)}</h1>
+        <p class="english-name">${escapeHTML(english?publicProfile.secondaryName:PUBLIC_DATA.profile.englishName)}</p>
+        <p class="current-role">${escapeHTML(publicProfile.currentRole.organization)} · ${escapeHTML(publicProfile.currentRole.title)}</p>
+        <p class="profile-links"><a class="profile-github" href="${escapeHTML(PUBLIC_DATA.profile.publicLinks.github)}" target="_blank" rel="noopener noreferrer" aria-label="${tr('githubProfile')}">GitHub · jiaxz</a></p>
+        <p class="hero-statement">${tr('heroLine1')}<br>${tr('heroLine2')}</p>
+        <div class="hero-links"><a class="text-link primary" href="#home/introduction">${tr('introduction')}</a><a class="text-link secondary" href="#home/experience">${tr('experienceLink')}</a></div>
+      </div>
+      <figure class="portrait-wrap"><img class="portrait" src="assets/jiaxing-zhang.webp" width="1500" height="1000" alt="${tr('portraitAlt')}" fetchpriority="high"><figcaption class="portrait-caption">JIAXING ZHANG · 张家兴</figcaption></figure>
+    </section>
     <section class="biography-section" id="introduction" aria-label="${tr('introduction')}">${publicProfile.biography.split(/\n\s*\n/).map(p=>`<p class="biography-paragraph">${escapeHTML(p)}</p>`).join('')}</section>
     <section class="section"><div class="section-top"><h2 class="section-title"><span class="eyebrow">${tr('interestsEyebrow')}</span>${tr('interestsTitle')}</h2><p class="section-intro">${tr('interestsLine1')}<br>${tr('interestsLine2')}</p></div><div class="research-themes">${[1,2,3].map(n=>`<article class="theme"><span class="theme-number">0${n}</span><h3>${tr('theme'+n+'Title')}</h3><p>${tr('theme'+n+'Text')}</p><small>${tr('theme'+n+'Sub')}</small></article>`).join('')}</div></section>
     <section class="section" id="experience"><div class="section-top"><h2 class="section-title"><span class="eyebrow">${tr('experienceEyebrow')}</span>${tr('experienceTitle')}</h2><p class="section-intro">${tr('experienceLine1')}<br>${tr('experienceLine2')}</p></div><div class="experience-layout">${education}<div><div class="timeline">${experiences.map(([date,title,desc])=>`<div class="timeline-row"><time>${escapeHTML(date)}</time><div><h3>${escapeHTML(title)}</h3><p>${escapeHTML(desc)}</p></div></div>`).join('')}</div></div></div></section>

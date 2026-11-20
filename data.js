@@ -2,8 +2,12 @@ window.PUBLIC_DATA = {
   "profile": {
     "name": "张家兴",
     "englishName": "Jiaxing Zhang",
+    "publicLinks": {
+      "github": "https://github.com/jiaxz"
+    },
     "updatedAt": "2026-11-20",
     "sources": [
+      "本人2026-11-20确认GitHub账号jiaxz，并要求在个人首页添加GitHub链接",
       "本人2026-11-20提供的个人介绍第一段修订原文；第二段保持2026-11-19本人原文不变",
       "本人2026-11-19确认：招商局集团工作至2026年10月；2026年11月起任中关村学院杰出技术专家，方向大模型RSI & Infra",
       "本人2026-11-19提供的两段个人介绍原文；当前中关村学院职务由本人确认，未推定任职起止日期",
@@ -267,6 +271,7 @@ window.PUBLIC_DATA = {
         "heroLine2": "在研究与实践之间。",
         "introduction": "个人介绍",
         "experienceLink": "了解我的经历",
+        "githubProfile": "张家兴的 GitHub：jiaxz（新窗口打开）",
         "portraitAlt": "张家兴站在办公室书架与窗前，身穿蓝色衬衫",
         "interestsEyebrow": "RESEARCH INTERESTS",
         "interestsTitle": "持续探索的问题",
@@ -338,6 +343,7 @@ window.PUBLIC_DATA = {
         "metaDescription": "Jiaxing Zhang: research and practice in artificial intelligence, open models, agents and embodied intelligence.",
         "metaSummary": "From models to the world. Between research and practice.",
         "heroEyebrow": "AI RESEARCHER & TECHNOLOGY BUILDER",
+        "githubProfile": "Jiaxing Zhang on GitHub: jiaxz (opens in a new tab)",
         "heroLine1": "From models to the world.",
         "heroLine2": "Between research and practice.",
         "introduction": "Biography",
