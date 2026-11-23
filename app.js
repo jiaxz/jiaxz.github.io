@@ -58,6 +58,13 @@ function compactRow({key,date,dateDetail,title,originalTitle,url,meta,resources=
 function localized(record){return english&&record.translations?.en?record.translations.en:record;}
 function expressionResourceLabel(link){
   if(/音频|播客/.test(link.label))return t('audio');
+  if(/课程视频页|视频课程页/.test(link.label))return t('course');
+  if(/视频|录像|回放/.test(link.label)){
+    if(/节选/.test(link.label))return t('videoClip');
+    if(/^https:\/\/www\.bilibili\.com\//.test(link.url))return t('bilibili');
+    if(/^https:\/\/www\.youtube\.com\//.test(link.url))return 'YouTube';
+    if(/^https:\/\/www\.ted\.com\//.test(link.url))return 'TED';
+  }
   if(/视频|录像|回放/.test(link.label))return t('video');
   if(/全文|实录|问答|专访/.test(link.label))return t('fullText');
   if(/摘要|观点/.test(link.label))return t('summary');

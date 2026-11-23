@@ -321,6 +321,9 @@ window.PUBLIC_DATA = {
         "past": "往期",
         "audio": "音频",
         "video": "视频",
+        "videoClip": "节选",
+        "course": "课程",
+        "bilibili": "B站",
         "fullText": "全文",
         "summary": "摘要",
         "wechat": "公众号",
@@ -397,6 +400,9 @@ window.PUBLIC_DATA = {
         "past": "Earlier",
         "audio": "Audio",
         "video": "Video",
+        "videoClip": "Clip",
+        "course": "Course",
+        "bilibili": "Bilibili",
         "fullText": "Text",
         "summary": "Summary",
         "wechat": "WeChat",
@@ -509,6 +515,10 @@ window.PUBLIC_DATA = {
       "category": "演讲与报告",
       "shortType": "演讲 / 报告",
       "contentLinks": [
+        {
+          "label": "中国自动化学会官方演讲视频，37:18 ↗",
+          "url": "https://www.bilibili.com/video/BV1qbd4BCEdp/"
+        },
         {
           "label": "演讲详细报道 ↗",
           "url": "https://www.cnr.cn/bj/sijh/20260331/t20260331_527568118.shtml"
@@ -2277,8 +2287,16 @@ window.PUBLIC_DATA = {
       "shortType": "演讲 / 报告",
       "contentLinks": [
         {
-          "label": "TEDxShenzhen 官方账号完整演讲视频 ↗",
+          "label": "TEDxShenzhen 官方账号完整演讲视频，17:43 ↗",
           "url": "https://www.bilibili.com/video/BV1rs4y1f7SX/"
+        },
+        {
+          "label": "TED 官方视频页 ↗",
+          "url": "https://www.ted.com/talks/jiaxing_zhang_ai_can_augment_human_intelligence_not_replace_it"
+        },
+        {
+          "label": "TEDx Talks 官方 YouTube 视频 ↗",
+          "url": "https://www.youtube.com/watch?v=euE1dMPzSpc"
         }
       ],
       "evidenceLinks": [
@@ -2345,6 +2363,10 @@ window.PUBLIC_DATA = {
         {
           "label": "演讲全文 ↗",
           "url": "https://tech.ifeng.com/c/8BrpDGGDtiA"
+        },
+        {
+          "label": "凤凰网视频节选，00:39 ↗",
+          "url": "https://travel.ifeng.com/c/8BrHj7nWaq0"
         }
       ],
       "evidenceLinks": [
@@ -3062,39 +3084,6 @@ window.PUBLIC_DATA = {
       }
     },
     {
-      "id": 7,
-      "date": "2018-08-25（视频上传日；原活动日不明）",
-      "dateLabel": "2018-08-25",
-      "dateDetail": "视频上传日；原活动日不明",
-      "year": 2018,
-      "stage": "蚂蚁金服",
-      "event": "Bilibili 公开视频",
-      "type": "视频课程/长讲座",
-      "title": "金融智能——蚂蚁金服的人工智能实践",
-      "category": "课程与讲座",
-      "shortType": "课程 / 讲座",
-      "contentLinks": [
-        {
-          "label": "视频，1:37:51 ↗",
-          "url": "https://www.bilibili.com/video/BV18W411D77g/"
-        }
-      ],
-      "evidenceLinks": [
-        {
-          "label": "公开视频页",
-          "url": "https://www.bilibili.com/video/BV18W411D77g/"
-        }
-      ],
-      "publicNote": "此日期为视频上传日，原活动日期未公开。",
-      "translations": {
-        "en": {
-          "title": "Financial Intelligence: AI in Practice at Ant Financial",
-          "event": "Public Video on Bilibili",
-          "type": "Video lecture"
-        }
-      }
-    },
-    {
       "id": 6,
       "date": "2018-06-06—06-22（为期两周；各站精确日期未全公开）",
       "dateLabel": "2018-06-06—06-22",
@@ -3190,6 +3179,47 @@ window.PUBLIC_DATA = {
           "title": "Semantic Similarity for Financial Questions",
           "event": "ATEC Ant Developer Competition Launch",
           "type": "Technical talk"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "date": "2018-03-08",
+      "dateLabel": "2018-03-08",
+      "dateDetail": "",
+      "year": 2018,
+      "stage": "蚂蚁金服",
+      "event": "将门技术社群线上分享（TechBeat／Bilibili 回放）",
+      "type": "视频课程/长讲座",
+      "title": "金融智能——蚂蚁金服的人工智能实践",
+      "category": "课程与讲座",
+      "shortType": "课程 / 讲座",
+      "contentLinks": [
+        {
+          "label": "TechBeat 官方视频，约1小时38分 ↗",
+          "url": "https://www.youtube.com/watch?v=1MatpojxSkM"
+        },
+        {
+          "label": "Bilibili 视频，1:37:51 ↗",
+          "url": "https://www.bilibili.com/video/BV18W411D77g/"
+        }
+      ],
+      "evidenceLinks": [
+        {
+          "label": "TechBeat 官方视频及分享日期说明",
+          "url": "https://www.youtube.com/watch?v=1MatpojxSkM"
+        },
+        {
+          "label": "Bilibili 转载视频页",
+          "url": "https://www.bilibili.com/video/BV18W411D77g/"
+        }
+      ],
+      "publicNote": "",
+      "translations": {
+        "en": {
+          "title": "Financial Intelligence: AI in Practice at Ant Financial",
+          "event": "The Jiangmen Tech Community Online Talk · TechBeat / Bilibili Replay",
+          "type": "Video lecture"
         }
       }
     },
@@ -10251,6 +10281,7 @@ window.PUBLIC_DATA = {
   "metadata": {
     "expressionReviewDate": "2026-10-29",
     "expressionOriginalCutoff": "2026-08-26",
+    "expressionVideoSupplementDate": "2026-11-23",
     "patentCutoff": "2026-10-18",
     "paperCutoff": "2026-11-19",
     "paperCounting": {
