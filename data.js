@@ -5,8 +5,9 @@ window.PUBLIC_DATA = {
     "publicLinks": {
       "github": "https://github.com/jiaxz"
     },
-    "updatedAt": "2026-11-20",
+    "updatedAt": "2026-11-23",
     "sources": [
+      "本人2026-11-23提供两段新版个人介绍并明确要求更新线上；中文逐字保留，英文同步翻译，不调整其他栏目或任职时间线",
       "本人2026-11-20确认GitHub账号jiaxz，并要求在个人首页添加GitHub链接",
       "本人2026-11-20提供的个人介绍第一段修订原文；第二段保持2026-11-19本人原文不变",
       "本人2026-11-19确认：招商局集团工作至2026年10月；2026年11月起任中关村学院杰出技术专家，方向大模型RSI & Infra",
@@ -16,7 +17,7 @@ window.PUBLIC_DATA = {
       "content/fengshen-downloads.json：2026-10-30官方模型累计下载快照",
       "2026-11-20英文展示译文依据已确认中文公开资料；机构名Zhongguancun Academy核对 https://www.bza.edu.cn/en ，译文不新增任职或成果确认"
     ],
-    "biography": "张家兴博士，中关村学院杰出技术专家，在人工智能领域有丰富的产业和学术经验。北京大学博士毕业，曾任招商局集团人工智能首席科学家、IDEA研究院讲席科学家、360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。曾任香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。之后在产业界和学术界先后创建多个算法和研究团队：阿里巴巴和蚂蚁金服的第一只深度学习团队、IDEA研究院认知计算与自然语言研究中心、招商局集团狮子山实验室。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
+    "biography": "张家兴博士，中关村学院杰出技术专家。北京大学博士毕业。曾任招商局集团人工智能首席科学家，创建狮子山人工智能实验室；IDEA研究院讲席科学家，创建认知计算与自然语言研究中心。也曾任360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。2015年和2016年创建阿里巴巴和蚂蚁金服的第一只深度学习团队、推动深度学习在产业界的第一次落地。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
     "experiences": [
       [
         "2026.11 起",
@@ -67,12 +68,12 @@ window.PUBLIC_DATA = {
       "startDate": "2026-11",
       "direction": "大模型RSI & Infra"
     },
-    "biographyPolicy": "第一段按2026-11-20本人原文逐字替换；第二段按2026-11-19本人原文保留，包括第一只、NIPS及下载超过500万的概写。不自动注入下载统计。任职年月沿2026-11-19本人确认，不补造具体日。",
+    "biographyPolicy": "两段简介按2026-11-23本人原文逐字更新，保留第一只、NIPS、2015年和2016年及下载量超过500万等表述；英文依据本次中文同步翻译。不自动注入下载统计，不改任职时间线或推定未给出的日期。",
     "translations": {
       "en": {
         "name": "Jiaxing Zhang",
         "secondaryName": "张家兴",
-        "biography": "Dr. Jiaxing Zhang is a Distinguished Technology Expert at Zhongguancun Academy, with extensive experience in both industry and academic research in artificial intelligence. He received his PhD from Peking University. His previous roles include Chief Scientist for AI at China Merchants Group, Chair Scientist at IDEA, Chief Scientist and Vice President at 360 DigiTech, Senior Algorithm Expert at Ant Financial, and Researcher at Microsoft Research Asia. He has also served as an adjunct or practice professor at the Chinese University of Hong Kong, Shenzhen; the Hong Kong University of Science and Technology (Guangzhou); South China University of Technology; and Tsinghua University in Shenzhen, and as a BAAI Scholar. He has published dozens of papers at leading conferences and journals in AI, distributed systems and physics, including NIPS, OSDI, ACL, EMNLP, CVPR, SIGMOD and NSDI. He is an early pioneer in big-data frameworks, deep-learning training frameworks and attention mechanisms, and open-source large models in China.\n\nBeginning in 2007, he was among the early researchers developing distributed key–value storage and studying communication optimization in data-parallel computing, publishing a series of papers at leading systems conferences, including OSDI. He began early deep-learning research in 2012, contributing some of the early work on attention mechanisms and distributed training frameworks at NIPS and other leading conferences. The open-source Minerva system helped lead the way for subsequent mainstream deep-learning training frameworks. He went on to establish multiple algorithm and research teams in industry and academia: the first deep-learning team at Alibaba and Ant Financial, the Cognitive Computing and Natural Language Research Center at IDEA, and the LionRock AI Lab at China Merchants Group. An early explorer of large models, he began open-sourcing the Fengshenbang model series in 2021, which has surpassed five million downloads. He has helped found several AI startups, delivered over a hundred conference keynotes, panels and courses, and appeared in numerous media interviews and magazine cover stories. He was a TEDx speaker in 2022.",
+        "biography": "Dr. Jiaxing Zhang is a Distinguished Technology Expert at Zhongguancun Academy. He received his PhD from Peking University. He previously served as Chief Scientist for AI at China Merchants Group, where he founded the LionRock AI Lab, and as Chair Scientist at IDEA, where he founded the Cognitive Computing and Natural Language Research Center. He also served as Chief Scientist and Vice President at 360 DigiTech, Senior Algorithm Expert at Ant Financial, and Researcher at Microsoft Research Asia. He has held adjunct or practice professorships at the Chinese University of Hong Kong, Shenzhen; the Hong Kong University of Science and Technology (Guangzhou); South China University of Technology; and Tsinghua University in Shenzhen, and has been a BAAI Scholar. He has published dozens of papers at leading conferences and journals in AI, distributed systems and physics, including NIPS, OSDI, ACL, EMNLP, CVPR, SIGMOD and NSDI. He is an early pioneer in big-data frameworks, deep-learning training frameworks and attention mechanisms, and open-source large models in China.\n\nBeginning in 2007, he was among the early researchers developing distributed key–value storage and studying communication optimization in data-parallel computing, publishing a series of papers at leading systems conferences, including OSDI. He began early deep-learning research in 2012, contributing some of the early work on attention mechanisms and distributed training frameworks at NIPS and other leading conferences. The open-source Minerva system helped lead the way for subsequent mainstream deep-learning training frameworks. In 2015 and 2016, he established the first deep-learning teams at Alibaba and Ant Financial, driving the first industrial deployment of deep learning. An early explorer of large models, he began open-sourcing the Fengshenbang model series in 2021, which has surpassed five million downloads. He has helped found several AI startups, delivered over a hundred conference keynotes, panels and courses, and appeared in numerous media interviews and magazine cover stories. He was a TEDx speaker in 2022.",
         "currentRole": {
           "organization": "Zhongguancun Academy",
           "title": "Distinguished Technology Expert",
@@ -133,7 +134,7 @@ window.PUBLIC_DATA = {
           ]
         ],
         "sourceBasis": {
-          "biography": "张家兴博士，中关村学院杰出技术专家，在人工智能领域有丰富的产业和学术经验。北京大学博士毕业，曾任招商局集团人工智能首席科学家、IDEA研究院讲席科学家、360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。曾任香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。之后在产业界和学术界先后创建多个算法和研究团队：阿里巴巴和蚂蚁金服的第一只深度学习团队、IDEA研究院认知计算与自然语言研究中心、招商局集团狮子山实验室。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
+          "biography": "张家兴博士，中关村学院杰出技术专家。北京大学博士毕业。曾任招商局集团人工智能首席科学家，创建狮子山人工智能实验室；IDEA研究院讲席科学家，创建认知计算与自然语言研究中心。也曾任360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。2015年和2016年创建阿里巴巴和蚂蚁金服的第一只深度学习团队、推动深度学习在产业界的第一次落地。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
           "experiences": [
             [
               "2026.11 起",
