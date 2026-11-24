@@ -437,6 +437,39 @@ window.PUBLIC_DATA = {
   },
   "expressions": [
     {
+      "id": 94,
+      "date": "2026-11-21",
+      "dateLabel": "2026-11-21",
+      "dateDetail": "",
+      "year": 2026,
+      "stage": "中关村学院",
+      "event": "2026奇点智能技术大会",
+      "type": "圆桌论坛",
+      "title": "奇点折射：模型、智能体与 Infra 的协同演进",
+      "category": "圆桌与对谈",
+      "shortType": "圆桌 / 对谈",
+      "contentLinks": [
+        {
+          "label": "圆桌实录及本人多轮发言 ↗",
+          "url": "https://damodev.csdn.net/6b03ae9340858c2d881d4697.html"
+        }
+      ],
+      "evidenceLinks": [
+        {
+          "label": "CSDN主办方会后报道",
+          "url": "https://damodev.csdn.net/6b03ae9340858c2d881d4697.html"
+        }
+      ],
+      "publicNote": "",
+      "translations": {
+        "en": {
+          "title": "Refracting the Singularity: The Co-evolution of Models, Agents and Infrastructure",
+          "event": "2026 Singularity Intelligence Technology Conference",
+          "type": "Panel discussion"
+        }
+      }
+    },
+    {
       "id": 87,
       "date": "2026-07-19 录制；07-27 发布",
       "dateLabel": "2026-07-19",
@@ -936,6 +969,34 @@ window.PUBLIC_DATA = {
       }
     },
     {
+      "id": 93,
+      "date": "2025-04-24",
+      "dateLabel": "2025-04-24",
+      "dateDetail": "",
+      "year": 2025,
+      "stage": "招商局集团 / 狮子山",
+      "event": "FAIR plus 主论坛：具身智能学术与产业前沿论坛",
+      "type": "主旨演讲",
+      "title": "世界与模型——具身智能的技术思考",
+      "category": "演讲与报告",
+      "shortType": "演讲 / 报告",
+      "contentLinks": [],
+      "evidenceLinks": [
+        {
+          "label": "2025公开参观手册及议程",
+          "url": "https://fliphtml5.com/oorvl/weuc/2025%E5%8F%82%E8%A7%82%E6%89%8B%E5%86%8C%E9%98%85%E8%AF%BB%E7%89%88%EF%BC%88%E5%90%AB%E7%AE%80%E4%BB%8B%EF%BC%89/"
+        }
+      ],
+      "publicNote": "目前没有公开内容直链；已确认参与。",
+      "translations": {
+        "en": {
+          "title": "Worlds and Models: Technical Reflections on Embodied Intelligence",
+          "event": "FAIR plus Main Forum · Academic and Industrial Frontiers of Embodied Intelligence",
+          "type": "Keynote"
+        }
+      }
+    },
+    {
       "id": 71,
       "date": "2025-03-12",
       "dateLabel": "2025-03-12",
@@ -1031,6 +1092,39 @@ window.PUBLIC_DATA = {
           "title": "Startup Opportunities in AI and Embodied Intelligence",
           "event": "Future Z Incubation Camp Conference",
           "type": "Panel discussion"
+        }
+      }
+    },
+    {
+      "id": 92,
+      "date": "2024-12-03",
+      "dateLabel": "2024-12-03",
+      "dateDetail": "",
+      "year": 2024,
+      "stage": "招商局集团 / 狮子山",
+      "event": "亿道科技日——AI原生硬件沙龙",
+      "type": "嘉宾分享/沙龙讨论",
+      "title": "AI原生硬件的应用场景与大模型适配",
+      "category": "圆桌与对谈",
+      "shortType": "圆桌 / 对谈",
+      "contentLinks": [
+        {
+          "label": "本人分享内容摘要 ↗",
+          "url": "https://www.emdoor.net/newsinfo412.html"
+        }
+      ],
+      "evidenceLinks": [
+        {
+          "label": "亿道官方会后报道",
+          "url": "https://www.emdoor.net/newsinfo412.html"
+        }
+      ],
+      "publicNote": "",
+      "translations": {
+        "en": {
+          "title": "AI-Native Hardware: Applications and Large-Model Integration",
+          "event": "Emdoor Technology Day · AI-Native Hardware Salon",
+          "type": "Guest talk and discussion"
         }
       }
     },
@@ -1552,6 +1646,10 @@ window.PUBLIC_DATA = {
         {
           "label": "圆桌完整实录 ↗",
           "url": "https://www.pingwest.com/a/285348"
+        },
+        {
+          "label": "阿里云官方直播页 ↗",
+          "url": "https://developer.aliyun.com/live/252110"
         }
       ],
       "evidenceLinks": [
@@ -2167,6 +2265,72 @@ window.PUBLIC_DATA = {
           "title": "Bringing Pretrained Models to Industry",
           "event": "IDEA Conference 2022",
           "type": "Panel participant and moderator"
+        }
+      }
+    },
+    {
+      "id": 91,
+      "date": "2022-11-09",
+      "dateLabel": "2022-11-09",
+      "dateDetail": "",
+      "year": 2022,
+      "stage": "IDEA 研究院",
+      "event": "机器之心“太乙 Stable Diffusion”技术解读直播",
+      "type": "线上技术分享/直播",
+      "title": "太乙 Stable Diffusion：中文文生图模型技术解读",
+      "category": "演讲与报告",
+      "shortType": "演讲 / 报告",
+      "contentLinks": [
+        {
+          "label": "模型介绍及直播背景 ↗",
+          "url": "https://www.laohu8.com/post/629978183"
+        }
+      ],
+      "evidenceLinks": [
+        {
+          "label": "明亮公司专访提及该次直播",
+          "url": "https://www.laohu8.com/post/629978183"
+        }
+      ],
+      "publicNote": "",
+      "translations": {
+        "en": {
+          "title": "Taiyi Stable Diffusion: A Technical Introduction to Chinese Text-to-Image Generation",
+          "event": "Synced · Taiyi Stable Diffusion Technical Livestream",
+          "type": "Online technical talk and livestream"
+        }
+      }
+    },
+    {
+      "id": 90,
+      "date": "2022-10-13",
+      "dateLabel": "2022-10-13",
+      "dateDetail": "",
+      "year": 2022,
+      "stage": "IDEA 研究院",
+      "event": "香港中文大学（深圳）数据科学学院 SDS Colloquium Series",
+      "type": "学术讲座（英语；线上＋线下）",
+      "title": "A New AI Paradigm in the Pre-training Big Model Era",
+      "category": "课程与讲座",
+      "shortType": "课程 / 讲座",
+      "contentLinks": [
+        {
+          "label": "官方讲座摘要 ↗",
+          "url": "https://sds.cuhk.edu.cn/en/event/703"
+        }
+      ],
+      "evidenceLinks": [
+        {
+          "label": "学院官方讲座页",
+          "url": "https://sds.cuhk.edu.cn/en/event/703"
+        }
+      ],
+      "publicNote": "",
+      "translations": {
+        "en": {
+          "title": "A New AI Paradigm in the Pre-training Big Model Era",
+          "event": "SDS Colloquium Series · The Chinese University of Hong Kong, Shenzhen",
+          "type": "Academic lecture · English · Hybrid"
         }
       }
     },
@@ -3019,6 +3183,43 @@ window.PUBLIC_DATA = {
           "title": "AI for Financial Services",
           "event": "China Conference on Artificial Intelligence 2019",
           "type": "Conference keynote"
+        }
+      }
+    },
+    {
+      "id": 89,
+      "date": "2019-08（具体日未公开；报道08-26／08-27发布）",
+      "dateLabel": "2019-08",
+      "dateDetail": "具体日未公开；报道08-26／08-27发布",
+      "year": 2019,
+      "stage": "蚂蚁金服",
+      "event": "上海《希望之地》新书分享活动",
+      "type": "嘉宾对谈",
+      "title": "人脸识别、对抗样本与科幻中的技术边界",
+      "category": "圆桌与对谈",
+      "shortType": "圆桌 / 对谈",
+      "contentLinks": [
+        {
+          "label": "本人直接发言与对谈内容 ↗",
+          "url": "https://www.chinawriter.com.cn/n1/2019/0827/c404080-31319396.html"
+        }
+      ],
+      "evidenceLinks": [
+        {
+          "label": "凤凰文化转载澎湃报道",
+          "url": "https://culture.ifeng.com/c/7pSLRL9D6UN"
+        },
+        {
+          "label": "中国作家网转载澎湃报道",
+          "url": "https://www.chinawriter.com.cn/n1/2019/0827/c404080-31319396.html"
+        }
+      ],
+      "publicNote": "活动日与发布日的区别见日期说明。",
+      "translations": {
+        "en": {
+          "title": "Facial Recognition, Adversarial Examples and the Boundaries of Technology in Science Fiction",
+          "event": "Land of Hope Book Discussion, Shanghai",
+          "type": "Guest conversation"
         }
       }
     },
@@ -10282,6 +10483,9 @@ window.PUBLIC_DATA = {
     "expressionReviewDate": "2026-10-29",
     "expressionOriginalCutoff": "2026-08-26",
     "expressionVideoSupplementDate": "2026-11-23",
+    "expressionActivitySupplementDate": "2026-11-24",
+    "expressionUserConfirmationDate": "2026-11-24",
+    "expressionSupplementCount": 6,
     "patentCutoff": "2026-10-18",
     "paperCutoff": "2026-11-19",
     "paperCounting": {
