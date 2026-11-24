@@ -1096,6 +1096,39 @@ window.PUBLIC_DATA = {
       }
     },
     {
+      "id": 88,
+      "date": "2025（具体月日未公开）",
+      "dateLabel": "2025",
+      "dateDetail": "具体月日未公开",
+      "year": 2025,
+      "stage": "招商局集团 / 狮子山",
+      "event": "腾讯云 TVP“技术夜未眠”直播",
+      "type": "直播对谈",
+      "title": "从“AI 解说员”到“AI 驾驶员”——视觉大模型的新时代进化论",
+      "category": "圆桌与对谈",
+      "shortType": "圆桌 / 对谈",
+      "contentLinks": [
+        {
+          "label": "完整直播回放 ↗",
+          "url": "https://cloud.tencent.com/edu/learning/live-4483"
+        }
+      ],
+      "evidenceLinks": [
+        {
+          "label": "腾讯云直播归档",
+          "url": "https://cloud.tencent.com/edu/learning/live-4483"
+        }
+      ],
+      "publicNote": "",
+      "translations": {
+        "en": {
+          "title": "From AI Commentator to AI Driver: The Evolution of Large Vision Models",
+          "event": "Tencent Cloud TVP · Technology Night Livestream",
+          "type": "Livestream conversation"
+        }
+      }
+    },
+    {
       "id": 92,
       "date": "2024-12-03",
       "dateLabel": "2024-12-03",
@@ -3520,39 +3553,6 @@ window.PUBLIC_DATA = {
           "title": "Intelligent Robot Technologies in Financial Services",
           "event": "Cloud TechDay No. 20, Yunqi Community",
           "type": "Technical talk and open class"
-        }
-      }
-    },
-    {
-      "id": 88,
-      "date": "日期未公开（归档页当前可播放）",
-      "dateLabel": "日期未公开",
-      "dateDetail": "归档页当前可播放",
-      "year": null,
-      "stage": "招商局集团 / 狮子山",
-      "event": "腾讯云 TVP“技术夜未眠”直播",
-      "type": "直播对谈",
-      "title": "从“AI 解说员”到“AI 驾驶员”——视觉大模型的新时代进化论",
-      "category": "圆桌与对谈",
-      "shortType": "圆桌 / 对谈",
-      "contentLinks": [
-        {
-          "label": "完整直播回放 ↗",
-          "url": "https://cloud.tencent.com/edu/learning/live-4483"
-        }
-      ],
-      "evidenceLinks": [
-        {
-          "label": "腾讯云直播归档",
-          "url": "https://cloud.tencent.com/edu/learning/live-4483"
-        }
-      ],
-      "publicNote": "",
-      "translations": {
-        "en": {
-          "title": "From AI Commentator to AI Driver: The Evolution of Large Vision Models",
-          "event": "Tencent Cloud TVP · Technology Night Livestream",
-          "type": "Livestream conversation"
         }
       }
     }
@@ -10485,6 +10485,7 @@ window.PUBLIC_DATA = {
     "expressionVideoSupplementDate": "2026-11-23",
     "expressionActivitySupplementDate": "2026-11-24",
     "expressionUserConfirmationDate": "2026-11-24",
+    "expressionDateCorrectionDate": "2026-11-24",
     "expressionSupplementCount": 6,
     "patentCutoff": "2026-10-18",
     "paperCutoff": "2026-11-19",
