@@ -3,10 +3,16 @@ window.PUBLIC_DATA = {
     "name": "张家兴",
     "englishName": "Jiaxing Zhang",
     "publicLinks": {
-      "github": "https://github.com/jiaxz"
+      "github": "https://github.com/jiaxz",
+      "googleScholar": "https://scholar.google.com/citations?user=ozXuhOUAAAAJ"
     },
-    "updatedAt": "2026-11-23",
+    "updatedAt": "2026-11-25",
     "sources": [
+      "本人2026-11-25明确要求涉及中关村学院的名称统一为北京中关村学院；当前公开简介、任职、经历、表达阶段及PDF同步，英文展示译为Beijing Zhongguancun Academy；历史来源记录不倒改。本次随后明确授权发布线上。",
+      "本人2026-11-25要求在南开大学教育经历中加入1999年全国学生电子设计竞赛E赛题冠军；保留本人原文及E赛题范围，英文为展示译文，仅更新本地",
+      "本人2026-11-25同日继续补充工作经历：招商局集团创建狮子山人工智能实验室后追加具身智能算法研究和全栈技术落地，IDEA创建认知计算与自然语言研究中心后追加大模型技术的最早期研究和开源；中英文同步，保留任职时间及现有排版，仅更新本地",
+      "本人2026-11-25补充工作经历：百度网页搜索部与机构同列，职务及工作内容为软件工程师、参与构建百度第一代搜索引擎的相关性算法；微软亚洲研究院研究员补充分布式系统和深度学习算法研究。统一机构／部门在上、职务与工作内容在下，英文同步，本次仅更新本地",
+      "本人2026-11-25要求在首页GitHub下方和学术成果论文列表上方加入Google Scholar链接；使用此前本人提供并已消歧确认的Scholar ID ozXuhOUAAAAJ，本次仅更新本地",
       "本人2026-11-23同日再次更新第一段，并确认博士毕业年应为2006年，非草稿中的2026年；同时将也曾任改为曾任，第二段不变。",
       "本人2026-11-23提供两段新版个人介绍并明确要求更新线上；中文逐字保留，英文同步翻译，不调整其他栏目或任职时间线",
       "本人2026-11-20确认GitHub账号jiaxz，并要求在个人首页添加GitHub链接",
@@ -18,22 +24,35 @@ window.PUBLIC_DATA = {
       "content/fengshen-downloads.json：2026-10-30官方模型累计下载快照",
       "2026-11-20英文展示译文依据已确认中文公开资料；机构名Zhongguancun Academy核对 https://www.bza.edu.cn/en ，译文不新增任职或成果确认"
     ],
-    "biography": "张家兴博士，中关村学院杰出技术专家。2006年北京大学博士毕业。曾任招商局集团人工智能首席科学家，创建狮子山人工智能实验室；IDEA研究院讲席科学家，创建认知计算与自然语言研究中心。曾任360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。2015年和2016年创建阿里巴巴和蚂蚁金服的第一只深度学习团队、推动深度学习在产业界的第一次落地。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
+    "biography": "张家兴博士，北京中关村学院杰出技术专家。2006年北京大学博士毕业。曾任招商局集团人工智能首席科学家，创建狮子山人工智能实验室；IDEA研究院讲席科学家，创建认知计算与自然语言研究中心。曾任360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。2015年和2016年创建阿里巴巴和蚂蚁金服的第一只深度学习团队、推动深度学习在产业界的第一次落地。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
+    "education": [
+      [
+        "北京大学",
+        "博士 · 计算量子力学研究",
+        "2001 — 2006"
+      ],
+      [
+        "南开大学",
+        "本科 · 信息科学与技术",
+        "1997 — 2001",
+        "1999年全国学生电子设计竞赛E赛题冠军"
+      ]
+    ],
     "experiences": [
       [
         "2026.11 起",
-        "中关村学院",
+        "北京中关村学院",
         "杰出技术专家 · 大模型 RSI & Infra"
       ],
       [
         "2024.07 — 2026.10",
         "招商局集团",
-        "集团首席科学家 · 创建狮子山人工智能实验室"
+        "集团首席科学家 · 创建狮子山人工智能实验室 · 具身智能算法研究和全栈技术落地"
       ],
       [
         "2021.05 — 2024.07",
         "IDEA 研究院",
-        "讲席科学家 · 创建认知计算与自然语言研究中心"
+        "讲席科学家 · 创建认知计算与自然语言研究中心 · 大模型技术的最早期研究和开源"
       ],
       [
         "2020.01 — 2021.04",
@@ -47,8 +66,8 @@ window.PUBLIC_DATA = {
       ],
       [
         "2011.06 — 2015.03",
-        "微软亚洲研究院",
-        "系统研究组 · 研究员"
+        "微软亚洲研究院 · 系统研究组",
+        "研究员 · 分布式系统和深度学习算法研究"
       ],
       [
         "2007.06 — 2011.06",
@@ -57,26 +76,26 @@ window.PUBLIC_DATA = {
       ],
       [
         "2006.07 — 2007.06",
-        "百度",
-        "网页搜索部 · 软件工程师"
+        "百度 · 网页搜索部",
+        "软件工程师 · 参与构建百度第一代搜索引擎的相关性算法"
       ]
     ],
     "currentRole": {
-      "organization": "中关村学院",
+      "organization": "北京中关村学院",
       "title": "杰出技术专家",
       "confirmedBy": "本人",
       "confirmedOn": "2026-11-19",
       "startDate": "2026-11",
       "direction": "大模型RSI & Infra"
     },
-    "biographyPolicy": "按2026-11-23本人最新两段原文及随后确认更新：博士毕业年为2006年，去除也曾任中的也；第二段不变。中文保留第一只、NIPS及下载量超过500万等本人表述；英文同步，不自动注入统计或补造具体日期。",
+    "biographyPolicy": "按2026-11-23本人最新两段原文及随后确认更新：博士毕业年为2006年，去除也曾任中的也；第二段不变。中文保留第一只、NIPS及下载量超过500万等本人表述；英文同步，不自动注入统计或补造具体日期。 2026-11-25按本人新要求仅统一学院名称为北京中关村学院，其他原文不变。",
     "translations": {
       "en": {
         "name": "Jiaxing Zhang",
         "secondaryName": "张家兴",
-        "biography": "Dr. Jiaxing Zhang is a Distinguished Technology Expert at Zhongguancun Academy. He received his PhD from Peking University in 2006. He previously served as Chief Scientist for AI at China Merchants Group, where he founded the LionRock AI Lab, and as Chair Scientist at IDEA, where he founded the Cognitive Computing and Natural Language Research Center. He served as Chief Scientist and Vice President at 360 DigiTech, Senior Algorithm Expert at Ant Financial, and Researcher at Microsoft Research Asia. He has held adjunct or practice professorships at the Chinese University of Hong Kong, Shenzhen; the Hong Kong University of Science and Technology (Guangzhou); South China University of Technology; and Tsinghua University in Shenzhen, and has been a BAAI Scholar. He has published dozens of papers at leading conferences and journals in AI, distributed systems and physics, including NIPS, OSDI, ACL, EMNLP, CVPR, SIGMOD and NSDI. He is an early pioneer in big-data frameworks, deep-learning training frameworks and attention mechanisms, and open-source large models in China.\n\nBeginning in 2007, he was among the early researchers developing distributed key–value storage and studying communication optimization in data-parallel computing, publishing a series of papers at leading systems conferences, including OSDI. He began early deep-learning research in 2012, contributing some of the early work on attention mechanisms and distributed training frameworks at NIPS and other leading conferences. The open-source Minerva system helped lead the way for subsequent mainstream deep-learning training frameworks. In 2015 and 2016, he established the first deep-learning teams at Alibaba and Ant Financial, driving the first industrial deployment of deep learning. An early explorer of large models, he began open-sourcing the Fengshenbang model series in 2021, which has surpassed five million downloads. He has helped found several AI startups, delivered over a hundred conference keynotes, panels and courses, and appeared in numerous media interviews and magazine cover stories. He was a TEDx speaker in 2022.",
+        "biography": "Dr. Jiaxing Zhang is a Distinguished Technology Expert at Beijing Zhongguancun Academy. He received his PhD from Peking University in 2006. He previously served as Chief Scientist for AI at China Merchants Group, where he founded the LionRock AI Lab, and as Chair Scientist at IDEA, where he founded the Cognitive Computing and Natural Language Research Center. He served as Chief Scientist and Vice President at 360 DigiTech, Senior Algorithm Expert at Ant Financial, and Researcher at Microsoft Research Asia. He has held adjunct or practice professorships at the Chinese University of Hong Kong, Shenzhen; the Hong Kong University of Science and Technology (Guangzhou); South China University of Technology; and Tsinghua University in Shenzhen, and has been a BAAI Scholar. He has published dozens of papers at leading conferences and journals in AI, distributed systems and physics, including NIPS, OSDI, ACL, EMNLP, CVPR, SIGMOD and NSDI. He is an early pioneer in big-data frameworks, deep-learning training frameworks and attention mechanisms, and open-source large models in China.\n\nBeginning in 2007, he was among the early researchers developing distributed key–value storage and studying communication optimization in data-parallel computing, publishing a series of papers at leading systems conferences, including OSDI. He began early deep-learning research in 2012, contributing some of the early work on attention mechanisms and distributed training frameworks at NIPS and other leading conferences. The open-source Minerva system helped lead the way for subsequent mainstream deep-learning training frameworks. In 2015 and 2016, he established the first deep-learning teams at Alibaba and Ant Financial, driving the first industrial deployment of deep learning. An early explorer of large models, he began open-sourcing the Fengshenbang model series in 2021, which has surpassed five million downloads. He has helped found several AI startups, delivered over a hundred conference keynotes, panels and courses, and appeared in numerous media interviews and magazine cover stories. He was a TEDx speaker in 2022.",
         "currentRole": {
-          "organization": "Zhongguancun Academy",
+          "organization": "Beijing Zhongguancun Academy",
           "title": "Distinguished Technology Expert",
           "direction": "Large-model RSI & Infra"
         },
@@ -89,24 +108,25 @@ window.PUBLIC_DATA = {
           [
             "Nankai University",
             "Undergraduate studies · Information Science and Technology",
-            "1997–2001"
+            "1997–2001",
+            "Champion, Problem E, 1999 National Student Electronic Design Contest"
           ]
         ],
         "experiences": [
           [
             "Nov 2026–present",
-            "Zhongguancun Academy",
+            "Beijing Zhongguancun Academy",
             "Distinguished Technology Expert · Large-model RSI & Infra"
           ],
           [
             "Jul 2024–Oct 2026",
             "China Merchants Group",
-            "Group Chief Scientist · Founded the LionRock AI Lab"
+            "Group Chief Scientist · Founded the LionRock AI Lab · Embodied-intelligence algorithm research and full-stack deployment"
           ],
           [
             "May 2021–Jul 2024",
             "IDEA",
-            "Chair Scientist · Founded the Cognitive Computing and Natural Language Research Center"
+            "Chair Scientist · Founded the Cognitive Computing and Natural Language Research Center · Earliest-stage research and open-sourcing of large-model technologies"
           ],
           [
             "Jan 2020–Apr 2021",
@@ -120,8 +140,8 @@ window.PUBLIC_DATA = {
           ],
           [
             "Jun 2011–Mar 2015",
-            "Microsoft Research Asia",
-            "Researcher · Systems Research Group"
+            "Microsoft Research Asia · Systems Research Group",
+            "Researcher · Research on distributed systems and deep-learning algorithms"
           ],
           [
             "Jun 2007–Jun 2011",
@@ -130,27 +150,40 @@ window.PUBLIC_DATA = {
           ],
           [
             "Jul 2006–Jun 2007",
-            "Baidu",
-            "Software Engineer · Web Search"
+            "Baidu · Web Search Department",
+            "Software Engineer · Helped build the relevance algorithms for Baidu’s first-generation search engine"
           ]
         ],
         "sourceBasis": {
-          "biography": "张家兴博士，中关村学院杰出技术专家。2006年北京大学博士毕业。曾任招商局集团人工智能首席科学家，创建狮子山人工智能实验室；IDEA研究院讲席科学家，创建认知计算与自然语言研究中心。曾任360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。2015年和2016年创建阿里巴巴和蚂蚁金服的第一只深度学习团队、推动深度学习在产业界的第一次落地。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
+          "biography": "张家兴博士，北京中关村学院杰出技术专家。2006年北京大学博士毕业。曾任招商局集团人工智能首席科学家，创建狮子山人工智能实验室；IDEA研究院讲席科学家，创建认知计算与自然语言研究中心。曾任360数科首席科学家/副总裁、蚂蚁金服资深算法专家、微软亚洲研究院研究员。香港中文大学（深圳）、香港科技大学（广州）、华南理工大学、清华大学（深圳）等高校兼职或实践教授，智源学者。在人工智能、分布式系统和物理等多个领域的顶级会议和期刊发表几十篇学术论文（NIPS、OSDI、ACL、EMNLP、CVPR、SIGMOD、NSDI...）。是大数据框架、深度学习训练框架和注意力机制、中国开源大模型最早的开创者。\n\n2007年开始在大数据领域最早一批研发分布式Key-Value存储以及研究数据并行计算中的通信优化问题，发表包括OSDI在内的一系列系统领域顶级会议论文。2012年开始深度学习早期研究，在NIPS等顶级会议上发表最早一批深度学习注意力机制和分布式训练框架工作，开源Minerva系统引领后来主流深度学习训练框架。2015年和2016年创建阿里巴巴和蚂蚁金服的第一只深度学习团队、推动深度学习在产业界的第一次落地。作为大模型的最早一批开拓者，2021年开始开源封神榜大模型系列，下载量超过500万。参与创建多家AI创业公司。超过百次的大会主题演讲、圆桌论坛和授课，多次媒体专访和杂志封面展示，2022年TEDx讲者。",
+          "education": [
+            [
+              "北京大学",
+              "博士 · 计算量子力学研究",
+              "2001 — 2006"
+            ],
+            [
+              "南开大学",
+              "本科 · 信息科学与技术",
+              "1997 — 2001",
+              "1999年全国学生电子设计竞赛E赛题冠军"
+            ]
+          ],
           "experiences": [
             [
               "2026.11 起",
-              "中关村学院",
+              "北京中关村学院",
               "杰出技术专家 · 大模型 RSI & Infra"
             ],
             [
               "2024.07 — 2026.10",
               "招商局集团",
-              "集团首席科学家 · 创建狮子山人工智能实验室"
+              "集团首席科学家 · 创建狮子山人工智能实验室 · 具身智能算法研究和全栈技术落地"
             ],
             [
               "2021.05 — 2024.07",
               "IDEA 研究院",
-              "讲席科学家 · 创建认知计算与自然语言研究中心"
+              "讲席科学家 · 创建认知计算与自然语言研究中心 · 大模型技术的最早期研究和开源"
             ],
             [
               "2020.01 — 2021.04",
@@ -164,8 +197,8 @@ window.PUBLIC_DATA = {
             ],
             [
               "2011.06 — 2015.03",
-              "微软亚洲研究院",
-              "系统研究组 · 研究员"
+              "微软亚洲研究院 · 系统研究组",
+              "研究员 · 分布式系统和深度学习算法研究"
             ],
             [
               "2007.06 — 2011.06",
@@ -174,12 +207,12 @@ window.PUBLIC_DATA = {
             ],
             [
               "2006.07 — 2007.06",
-              "百度",
-              "网页搜索部 · 软件工程师"
+              "百度 · 网页搜索部",
+              "软件工程师 · 参与构建百度第一代搜索引擎的相关性算法"
             ]
           ],
           "currentRole": {
-            "organization": "中关村学院",
+            "organization": "北京中关村学院",
             "title": "杰出技术专家",
             "confirmedBy": "本人",
             "confirmedOn": "2026-11-19",
@@ -247,7 +280,7 @@ window.PUBLIC_DATA = {
     ]
   },
   "i18n": {
-    "updatedAt": "2026-11-20",
+    "updatedAt": "2026-11-25",
     "defaultLanguage": "zh",
     "languages": [
       "zh",
@@ -274,6 +307,7 @@ window.PUBLIC_DATA = {
         "introduction": "个人介绍",
         "experienceLink": "了解我的经历",
         "githubProfile": "张家兴的 GitHub：jiaxz（新窗口打开）",
+        "scholarProfile": "张家兴的 Google Scholar 学术主页（新窗口打开）",
         "portraitAlt": "张家兴站在办公室书架与窗前，身穿蓝色衬衫",
         "interestsEyebrow": "RESEARCH INTERESTS",
         "interestsTitle": "持续探索的问题",
@@ -349,6 +383,7 @@ window.PUBLIC_DATA = {
         "metaSummary": "From models to the world. Between research and practice.",
         "heroEyebrow": "AI RESEARCHER & TECHNOLOGY BUILDER",
         "githubProfile": "Jiaxing Zhang on GitHub: jiaxz (opens in a new tab)",
+        "scholarProfile": "Jiaxing Zhang on Google Scholar (opens in a new tab)",
         "heroLine1": "From models to the world.",
         "heroLine2": "Between research and practice.",
         "introduction": "Biography",
@@ -442,7 +477,7 @@ window.PUBLIC_DATA = {
       "dateLabel": "2026-11-21",
       "dateDetail": "",
       "year": 2026,
-      "stage": "中关村学院",
+      "stage": "北京中关村学院",
       "event": "2026奇点智能技术大会",
       "type": "圆桌论坛",
       "title": "奇点折射：模型、智能体与 Infra 的协同演进",
@@ -3559,6 +3594,22 @@ window.PUBLIC_DATA = {
   ],
   "papers": [
     {
+      "id": "scholar-NaGl4SEjCO4C",
+      "scholarId": "NaGl4SEjCO4C",
+      "date": "2026-10-31",
+      "datePrecision": "day",
+      "year": 2026,
+      "title": "Structural Dual Adaptation for Safe Reinforcement Learning",
+      "authors": "Runsheng Yu, Zhuoyang Song, Zengde Deng, Qixin Zhang, Li Shen, Jiaxing Zhang",
+      "venue": "arXiv · 2611.00636",
+      "url": "https://arxiv.org/abs/2611.00636",
+      "status": "预印本",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ozXuhOUAAAAJ&citation_for_view=ozXuhOUAAAAJ:NaGl4SEjCO4C",
+      "description": "",
+      "source": "2026-11-25本人确认并授权补录；arXiv原文招商局机构及合作者匹配，Scholar保存后详情核实2026/10/31及完整作者，仍为预印本",
+      "sourceOrder": 66
+    },
+    {
       "id": "scholar-GnPB-g6toBAC",
       "scholarId": "GnPB-g6toBAC",
       "date": "2026-10-02",
@@ -3637,6 +3688,26 @@ window.PUBLIC_DATA = {
       "description": "",
       "source": "Google Scholar 公开详情页，2026-11-19 只读核对",
       "sourceOrder": 4
+    },
+    {
+      "id": "scholar-RGFaLdJalmkC",
+      "scholarId": "RGFaLdJalmkC",
+      "date": "2026-03-10",
+      "datePrecision": "day",
+      "year": 2026,
+      "title": "CoRLHF: Reinforcement learning from human feedback with cooperative policy-reward optimization for LLMs",
+      "authors": "Qi Liu, Zhuoyang Song, Yuxin Liang, Zejian Xie, Songxin Zhang, Jiaxing Zhang, Yanjie Li",
+      "venue": "Expert Systems with Applications · 301: 130113",
+      "url": "https://doi.org/10.1016/j.eswa.2025.130113",
+      "status": "正式发表",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ozXuhOUAAAAJ&citation_for_view=ozXuhOUAAAAJ:RGFaLdJalmkC",
+      "publicationDateOnline": "2025-11-17",
+      "volume": "301",
+      "articleNumber": "130113",
+      "doi": "10.1016/j.eswa.2025.130113",
+      "description": "",
+      "source": "2026-11-25本人确认并授权补录；出版方可检索记录及作者出版页确认正式卷期2026-03-10、301卷、130113。Scholar导入在线首发2025/11/17，已改为正式卷期日并补301卷；保存后详情核实，不改题名或作者。",
+      "sourceOrder": 67
     },
     {
       "id": "scholar-YFjsv_pBGBYC",
@@ -4585,20 +4656,6 @@ window.PUBLIC_DATA = {
       "description": "",
       "source": "Google Scholar 公开详情页，2026-11-19 只读核对",
       "sourceOrder": 63
-    },
-    {
-      "id": "arxiv-cond-mat-0504594v1",
-      "date": "2005",
-      "datePrecision": "year",
-      "year": 2005,
-      "title": "First-principles calculation on the transport properties of molecular wires between Au clusters under equilibrium",
-      "authors": "Zhanyu Ning, Jingzhe Chen, Shimin Hou, Jiaxing Zhang, Zhenyu Liang, Jin Zhang, Rushan Han",
-      "venue": "arXiv · cond-mat/0504594v1",
-      "url": "https://arxiv.org/abs/cond-mat/0504594v1",
-      "status": "预印本",
-      "description": "早期题名为 calculation on，与 PRB 的 calculation of 版本分列。",
-      "source": "2026-10-15 已核查的改题名保留记录；本轮 Scholar 可见列表未单列该旧题名，仍保留已确认论文",
-      "sourceOrder": 65
     },
     {
       "id": "scholar-9yKSN-GCB0IC",
@@ -10488,12 +10545,13 @@ window.PUBLIC_DATA = {
     "expressionDateCorrectionDate": "2026-11-24",
     "expressionSupplementCount": 6,
     "patentCutoff": "2026-10-18",
-    "paperCutoff": "2026-11-19",
+    "paperCutoff": "2026-11-25",
     "paperCounting": {
-      "paperRecords": 66,
-      "currentScholarPaperRecords": 65,
+      "paperRecords": 68,
+      "currentScholarPaperRecords": 67,
+      "websitePaperRecords": 67,
       "historicalConfirmedOldTitles": 1,
-      "warning": "66 为目录记录数，包含不同题名版本及保留的重复索引，不等于 66 篇独立研究。2026-10-15 的70条为历史成果基线；当前可见69条的变化原因未判定，未改 Scholar。"
+      "warning": "主档68条＝当前Scholar论文67条＋历史旧题名1条，包含不同题名版本及重复索引，不等于68篇独立研究。按本人2026-11-25要求，网站仅展示当前Scholar的67条论文；未单列的PRB calculation on旧题名保留后台且标记scholarVisible=false，不删除或合并。历史70条至69条的变化原因仍未判定。"
     },
     "paperDateRule": "按出版日期倒序，不按方向、重要性或出版状态分组。保留来源实际年/月/日精度；缺月的排在同年已知月份之后，缺日的排在同月已知日期之后；相同日期或精度稳定保留来源顺序。不用 arXiv 日期冒充会议出版日。"
   }
