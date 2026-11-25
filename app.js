@@ -12,11 +12,12 @@ const t = (key,values={}) => {
 };
 const tr = (key,values) => escapeHTML(t(key,values));
 const external = (url, label, cls = '') => /^https:\/\//.test(url) ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer" class="${cls}">${escapeHTML(label)}</a>` : '';
+const scholarLink = (cls = '') => `<a class="${cls}" href="${escapeHTML(PUBLIC_DATA.profile.publicLinks.googleScholar)}" target="_blank" rel="noopener noreferrer" aria-label="${tr('scholarProfile')}">Google Scholar</a>`;
 const state = {expressionSearch:'',academicTab:'论文',paperSearch:''};
 const publicProfile = english?PUBLIC_DATA.profile.translations.en:PUBLIC_DATA.profile;
 const experiences = publicProfile.experiences;
-const educationRows = english?publicProfile.education:[['北京大学','博士 · 计算量子力学研究','2001 — 2006'],['南开大学','本科 · 信息科学与技术','1997 — 2001']];
-const education = `<div class="education">${educationRows.map(([name,degree,dates])=>`<div class="education-item"><h3>${escapeHTML(name)}</h3><p>${escapeHTML(degree)}</p><span class="year">${escapeHTML(dates)}</span></div>`).join('')}</div>`;
+const educationRows = publicProfile.education;
+const education = `<div class="education">${educationRows.map(([name,degree,dates,achievement])=>`<div class="education-item"><h3>${escapeHTML(name)}</h3><p>${escapeHTML(degree)}</p><span class="year">${escapeHTML(dates)}</span>${achievement?`<p class="education-achievement">${escapeHTML(achievement)}</p>`:''}</div>`).join('')}</div>`;
 function syncChrome(){
   if(document.documentElement)document.documentElement.lang=english?'en':'zh-CN';
   $$('[data-i18n]').forEach(e=>{e.textContent=t(e.dataset.i18n);});
@@ -37,7 +38,7 @@ function homePage(){
         <h1 id="hero-name">${escapeHTML(publicProfile.name)}</h1>
         <p class="english-name">${escapeHTML(english?publicProfile.secondaryName:PUBLIC_DATA.profile.englishName)}</p>
         <p class="current-role">${escapeHTML(publicProfile.currentRole.organization)} · ${escapeHTML(publicProfile.currentRole.title)}</p>
-        <p class="profile-links"><a class="profile-github" href="${escapeHTML(PUBLIC_DATA.profile.publicLinks.github)}" target="_blank" rel="noopener noreferrer" aria-label="${tr('githubProfile')}">GitHub · jiaxz</a></p>
+        <p class="profile-links"><a class="profile-github" href="${escapeHTML(PUBLIC_DATA.profile.publicLinks.github)}" target="_blank" rel="noopener noreferrer" aria-label="${tr('githubProfile')}">GitHub · jiaxz</a>${scholarLink('profile-scholar')}</p>
         <p class="hero-statement">${tr('heroLine1')}<br>${tr('heroLine2')}</p>
         <div class="hero-links"><a class="text-link primary" href="#home/introduction">${tr('introduction')}</a><a class="text-link secondary" href="#home/experience">${tr('experienceLink')}</a></div>
       </div>
@@ -88,9 +89,10 @@ function drawExpressions(){
     return compactRow({key:`data-expression-id="${x.id}"`,date:displayDate,dateDetail:displayDate+(detail?' · '+detail:''),title:display.title,originalTitle:x.title,url:(x.contentLinks[0]||x.evidenceLinks[0])?.url,meta:display.event+' · '+type,resources});
   }).join(''):`<li class="empty-state">${tr('noExpressions')}<button id="reset-expressions" type="button">${tr('clearSearch')}</button></li>`;
 }
-function academicPage(){return `<div class="container fade-in"><header class="page-heading"><div class="academic-intro"><div><p class="eyebrow">${tr('publicationsEyebrow')}</p><h1>${tr('publications')}</h1><p>${tr('publicationsDescription')}</p></div>${external('https://scholar.google.com/citations?user=ozXuhOUAAAAJ&hl=en','Google Scholar','text-link')}</div></header><div class="filter-bar">${buttonGroup(['论文','授权专利'],state.academicTab,'academic')}<label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">${tr('academicSearch')}</span><input id="paper-search" class="search-input" type="search" value="${escapeHTML(state.paperSearch)}" placeholder="${tr('academicPlaceholder')}"></label></div><p id="academic-summary" class="publication-count" role="status" aria-live="polite" style="margin-top:20px"></p><ul class="compact-list" id="academic-results" aria-label="${tr('academicList')}"></ul><p id="academic-note" class="page-bottom-note"></p></div>`;}
+function academicPage(){return `<div class="container fade-in"><header class="page-heading"><div class="academic-intro"><div><p class="eyebrow">${tr('publicationsEyebrow')}</p><h1>${tr('publications')}</h1><p>${tr('publicationsDescription')}</p></div></div></header><div class="filter-bar">${buttonGroup(['论文','授权专利'],state.academicTab,'academic')}<label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">${tr('academicSearch')}</span><input id="paper-search" class="search-input" type="search" value="${escapeHTML(state.paperSearch)}" placeholder="${tr('academicPlaceholder')}"></label></div><p id="academic-scholar" class="academic-scholar">${scholarLink('text-link')}</p><p id="academic-summary" class="publication-count" role="status" aria-live="polite" style="margin-top:20px"></p><ul class="compact-list" id="academic-results" aria-label="${tr('academicList')}"></ul><p id="academic-note" class="page-bottom-note"></p></div>`;}
 function drawAcademic(){
   const patents=state.academicTab==='授权专利';const query=state.paperSearch.trim().toLowerCase();
+  $('#academic-scholar').hidden=patents;
   const source=patents?PUBLIC_DATA.grantedPatents:PUBLIC_DATA.papers;
   const rows=source.filter(x=>!query||[x.title,x.authors,x.date,x.venue,x.topic,x.id,x.applicationNumber,x.recordId,x.description,x.translations?.en.title,x.translations?.en.venue].join(' ').toLowerCase().includes(query));
   $('#academic-summary').textContent=patents?t('grantCount',{count:rows.length})+t(query?'searchResults':'byGrantDate'):t('paperCount',{count:rows.length});
@@ -133,4 +135,3 @@ document.addEventListener('input',event=>{if(event.target.id==='expression-searc
 window.addEventListener('hashchange',render);
 window.addEventListener('pageshow',event=>{if(event.persisted)render();});
 render();
-
